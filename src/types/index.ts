@@ -5,6 +5,7 @@ export interface PricingPlan {
   features: string[];
 }
 
+// types/index.ts
 export interface Tool {
   id: string;
   slug: string;
@@ -20,23 +21,23 @@ export interface Tool {
       plan: string;
       features: string[];
     };
-    paid?: PricingPlan | PricingPlan[];
+    paid?: PricingPlan | PricingPlan[] | { price: PricingPlan[] };
   };
-  rating?: number;
-  reviewCount?: number;
+  rating?: number | null;
+  reviewCount?: number | null;
   imageUrl: string;
-  demoUrl?: string;
+  demoUrl?: string | null;
   websiteUrl: string;
   supportedPlatforms: string[];
   languagesSupported: string[];
-  testimonials?: Array<{
+  testimonials?: {
     name: string;
     title: string;
     quote: string;
     avatarUrl: string;
-  }>;
-  additionalRoutes?: Array<{
+  }[];
+  additionalRoutes?: {
     route: string;
     description: string;
-  }>;
+  }[];
 }

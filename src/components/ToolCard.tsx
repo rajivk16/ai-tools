@@ -1,4 +1,3 @@
-// components/tool-card.tsx
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -6,7 +5,6 @@ import { Badge } from "@/components/ui/badge"
 import { StarIcon, ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid"
 import { Tool } from "@/types"
 import { BorderBeam } from "@/components/ui/border-beam"
-
 
 export default function ToolCard({ tool }: { tool: Tool }) {
     return (
@@ -30,11 +28,15 @@ export default function ToolCard({ tool }: { tool: Tool }) {
               <p className="text-muted-foreground mb-4 flex-grow">{tool.tagline}</p>
               <div className="flex justify-between items-center mt-auto">
                 <span className="text-gradient-secondary font-semibold">{tool.pricing.model}</span>
-                <div className="flex items-center">
-                  <StarIcon className="w-5 h-5 text-yellow-400 mr-1" />
-                  <span>{tool.rating.toFixed(1)}</span>
-                  <span className="text-muted-foreground text-sm ml-1">({tool.reviewCount})</span>
-                </div>
+                {tool.rating !== null && tool.rating !== undefined && (
+                  <div className="flex items-center">
+                    <StarIcon className="w-5 h-5 text-yellow-400 mr-1" />
+                    <span>{tool.rating.toFixed(1)}</span>
+                    {tool.reviewCount !== undefined && (
+                      <span className="text-muted-foreground text-sm ml-1">({tool.reviewCount})</span>
+                    )}
+                  </div>
+                )}
               </div>
             </CardContent>
             <a 

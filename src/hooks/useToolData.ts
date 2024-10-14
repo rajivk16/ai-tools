@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Tool } from '@/types'
-import toolsData from '@/data/tools.json'
+import toolsData from '@/data/tools1.json'
 
 export function useAllTools() {
   const [tools, setTools] = useState<Tool[]>([])

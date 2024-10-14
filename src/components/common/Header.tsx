@@ -3,6 +3,7 @@
 
 import * as React from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
@@ -33,7 +34,7 @@ export default function Header() {
       >
         <nav className="px-12 py-3 flex items-center space-x-10">
           <Link href="/" className="text-lg font-heading font-bold text-primary mr-4">
-            ATC
+            <Image src="/images/logo.png" height={50} width={50} alt="logo"/>
           </Link>
           <ul className="hidden md:flex space-x-1">
             {navItems.map((item) => (

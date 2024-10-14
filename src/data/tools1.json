@@ -1,0 +1,358 @@
+[
+    {
+        "id": "1",
+        "slug": "magic-ui",
+        "name": "Magic UI",
+        "tagline": "50+ Free Animated UI Components for Landing Pages",
+        "description": "Magic UI provides over 50 free and open-source animated UI components for landing pages. These components are built using React, TypeScript, Tailwind CSS, and Framer Motion, designed for developers and designers to accelerate the creation of visually stunning landing pages.",
+        "category": "Web Development",
+        "features": [
+          "50+ animated components",
+          "React and TypeScript integration",
+          "Tailwind CSS and Framer Motion support",
+          "Customizable templates and sections",
+          "Supports open-source and Pro versions"
+        ],
+        "useCases": [
+          "Quickly build landing pages",
+          "Integrate animated UI elements",
+          "Customizable user interfaces with Tailwind CSS"
+        ],
+        "pricing": {
+          "model": "Freemium",
+          "free": {
+            "plan": "Basic",
+            "features": [
+              "50+ free components",
+              "Access to documentation",
+              "GitHub repository"
+            ]
+          },
+          "paid": {
+            "plan": "Pro",
+            "price": [
+              {
+                "plan": "Annual Access",
+                "price": "$99/year (discounted from $229)",
+                "features": [
+                  "Access to all templates and sections",
+                  "Commercial usage rights",
+                  "Lifetime access and updates"
+                ]
+              },
+              {
+                "plan": "Lifetime Access",
+                "price": "$129 (discounted from $299)",
+                "features": [
+                  "Perpetual access to all content",
+                  "Lifetime updates",
+                  "Commercial usage rights"
+                ]
+              },
+              {
+                "plan": "Team License",
+                "price": "$499 (discounted from $699)",
+                "features": [
+                  "10 developer licenses",
+                  "Access to all templates and updates",
+                  "Priority support"
+                ]
+              }
+            ]
+          }
+        },
+        "rating": 4.5,
+        "reviewCount": null,
+        "imageUrl": "https://magicui.design/logo.svg",
+        "demoUrl": "https://magicui.design/showcase",
+        "websiteUrl": "https://magicui.design",
+        "supportedPlatforms": [
+          "Web"
+        ],
+        "languagesSupported": [
+          "English"
+        ],
+        "testimonials": [],
+        "additionalRoutes": [
+          {
+            "route": "/components",
+            "description": "Access to all animated UI components."
+          },
+          {
+            "route": "/showcase",
+            "description": "Showcase of websites built using Magic UI."
+          },
+          {
+            "route": "/pro",
+            "description": "Details about Magic UI Pro with premium features and templates."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "slug": "crayo-ai",
+        "name": "Crayo AI",
+        "tagline": "Generate viral-ready clips in seconds",
+        "description": "Crayo AI enables creators to generate viral short-form content quickly with AI-powered tools like voiceovers, subtitles, and avatars. Designed for influencers, marketers, and creators, it simplifies the video creation process with easy-to-use, automated workflows.",
+        "category": "Content Creation",
+        "features": [
+          "AI voiceovers and narration",
+          "Automated subtitle generation with 97% accuracy",
+          "Clip stitching and trimming",
+          "AI avatars and overlays",
+          "Built-in video editor",
+          "Templates for fake-text, Reddit stories, split-screen videos, and more"
+        ],
+        "useCases": [
+          "Create viral short-form content",
+          "Produce AI-generated voiceovers for videos",
+          "Add accurate subtitles for better engagement",
+          "Generate content for TikTok, Shorts, and Instagram",
+          "Create niche content like Reddit stories and split-screen videos"
+        ],
+        "pricing": {
+          "model": "Subscription",
+          "paid": [
+            {
+              "plan": "Hobby",
+              "price": "$13.30/month (billed annually)",
+              "features": [
+                "40 minutes of export",
+                "30 minutes of AI voiceovers",
+                "10 minutes of AI avatar usage",
+                "100 AI-generated images"
+              ]
+            },
+            {
+              "plan": "Clipper",
+              "price": "$27.25/month (billed annually)",
+              "features": [
+                "2 hours of export",
+                "120 minutes of AI voiceovers",
+                "30 minutes of AI avatar usage",
+                "300 AI-generated images"
+              ]
+            },
+            {
+              "plan": "Pro",
+              "price": "$55.33/month (billed annually)",
+              "features": [
+                "3 hours of export",
+                "180 minutes of AI voiceovers",
+                "60 minutes of AI avatar usage",
+                "500 AI-generated images"
+              ]
+            }
+          ]
+        },
+        "rating": 4.4,
+        "reviewCount": null,
+        "imageUrl": "https://crayo.ai/assets/logo.svg",
+        "demoUrl": null,
+        "websiteUrl": "https://crayo.ai",
+        "supportedPlatforms": [
+          "Web"
+        ],
+        "languagesSupported": [
+          "English"
+        ],
+        "testimonials": [
+          {
+            "name": "Daniel Bitton",
+            "title": "Founder",
+            "quote": "Crayo solves scaling problems for creators, enabling faster, high-quality video production.",
+            "avatarUrl": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairBob&accessoriesType=Sunglasses&hairColor=SilverGray&facialHairType=MoustacheMagnum&facialHairColor=Brown&clotheType=CollarSweater&clotheColor=Gray01&eyeType=Squint&eyebrowType=DefaultNatural&mouthType=Sad&skinColor=Brown"
+          },
+          {
+            "name": "Musa Mustafa",
+            "title": "Video Creator",
+            "quote": "Crayo is the tool I wish I had when I started. It's 4x faster and increases retention by 30%.",
+            "avatarUrl": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurly&accessoriesType=Sunglasses&hairColor=Red&facialHairType=MoustacheMagnum&facialHairColor=Auburn&clotheType=CollarSweater&clotheColor=Heather&graphicType=Bear&eyeType=Surprised&eyebrowType=Default&mouthType=Grimace&skinColor=Pale"
+          }
+        ],
+        "additionalRoutes": [
+          {
+            "route": "/features",
+            "description": "Lists all available tools and workflows for content creation."
+          },
+          {
+            "route": "/pricing",
+            "description": "Subscription plans for different levels of content creation."
+          },
+          {
+            "route": "/faq",
+            "description": "Frequently asked questions and details about how Crayo works."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "slug": "beyond-code",
+        "name": "Beyond Code",
+        "tagline": "Essential tools for web developers",
+        "description": "Beyond Code provides powerful tools and open-source packages for web developers, specializing in Laravel and PHP development. Key products include Tinkerwell, Expose, HELO, and Laravel WebSockets, all aimed at simplifying development workflows and enhancing productivity.",
+        "category": "Web Development Tools",
+        "features": [
+          "Tinkerwell: PHP Scratchpad for fast prototyping",
+          "Expose: Local-to-global web tunneling",
+          "Laravel WebSockets: WebSocket integration without third-party dependencies",
+          "HELO: Advanced email testing and debugging",
+          "Invoker: No-code admin panel for Laravel applications"
+        ],
+        "useCases": [
+          "Efficient local PHP development",
+          "Debugging Laravel apps",
+          "Sharing local development projects globally",
+          "Testing email flows during development",
+          "Managing Laravel projects without coding"
+        ],
+        "pricing": {
+          "model": "One-time Purchase",
+          "paid": [
+            {
+              "plan": "Tinkerwell",
+              "price": "€49",
+              "features": [
+                "PHP Scratchpad",
+                "AI code generation",
+                "SSH support",
+                "Detailed output with graphs"
+              ]
+            },
+            {
+              "plan": "HELO",
+              "price": "€79",
+              "features": [
+                "Advanced email debugging",
+                "Unlimited inboxes for testing"
+              ]
+            },
+            {
+              "plan": "Invoker",
+              "price": "€49",
+              "features": [
+                "No-code admin panel for Laravel",
+                "Database management without coding"
+              ]
+            }
+          ]
+        },
+        "rating": 4.1,
+        "reviewCount": null,
+        "imageUrl": "https://beyondco.de/assets/logo.svg",
+        "demoUrl": "https://tinkerwell.app",
+        "websiteUrl": "https://beyondco.de",
+        "supportedPlatforms": [
+          "Web",
+          "macOS",
+          "Windows",
+          "Linux"
+        ],
+        "languagesSupported": [
+          "English"
+        ],
+        "testimonials": [],
+        "additionalRoutes": [
+          {
+            "route": "/software",
+            "description": "Overview of all software products like Tinkerwell, Expose, HELO, and more."
+          },
+          {
+            "route": "/services",
+            "description": "Details about services including custom PHP package development."
+          },
+          {
+            "route": "/open-source",
+            "description": "Access to open-source projects like Laravel WebSockets."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "slug": "2chat",
+        "name": "2Chat",
+        "tagline": "WhatsApp automation for Sales, Marketing, and Customer Support",
+        "description": "2Chat offers a comprehensive WhatsApp automation platform for small teams, enabling businesses to integrate WhatsApp into their workflows without the need for a WABA account. It supports multiple agents, live chat management, and API integrations, making it a powerful tool for improving customer engagement and communication efficiency.",
+        "category": "Communication",
+        "features": [
+          "WhatsApp automation without WABA",
+          "Multiple agents support",
+          "Bulk messaging and broadcasting",
+          "API access for integrations",
+          "Real-time conversation management",
+          "Advanced reporting and analytics",
+          "Audio transcription for voice messages",
+          "Integration with HubSpot, Slack, and Make/Zapier"
+        ],
+        "useCases": [
+          "Automate WhatsApp responses for customer service",
+          "Manage multiple agents for sales teams",
+          "Bulk messaging for marketing campaigns",
+          "Real-time conversations for customer support",
+          "Improve response times with automation",
+          "Transcribe audio messages for faster responses"
+        ],
+        "pricing": {
+          "model": "Subscription",
+          "paid": [
+            {
+              "plan": "Single",
+              "price": "$38/month",
+              "features": [
+                "1 agent and 1 WhatsApp number",
+                "Basic reporting and integrations",
+                "1000 API requests per month"
+              ]
+            },
+            {
+              "plan": "Basic",
+              "price": "$49/month",
+              "features": [
+                "3 agents and 1 WhatsApp number",
+                "Unlimited messaging",
+                "Team conversation management",
+                "50,000 API requests per month",
+                "Bulk messaging and Slack integration"
+              ]
+            },
+            {
+              "plan": "Pro",
+              "price": "$110/month",
+              "features": [
+                "5 agents and 3 WhatsApp numbers",
+                "Advanced reporting and all integrations",
+                "500,000 API requests per month",
+                "Audio transcription (24 hours per month)",
+                "HubSpot integration and more"
+              ]
+            }
+          ]
+        },
+        "rating": 4.2,
+        "reviewCount": null,
+        "imageUrl": "https://2chat.co/assets/logo.svg",
+        "demoUrl": null,
+        "websiteUrl": "https://2chat.co",
+        "supportedPlatforms": [
+          "Web"
+        ],
+        "languagesSupported": [
+          "English"
+        ],
+        "testimonials": [],
+        "additionalRoutes": [
+          {
+            "route": "/features",
+            "description": "Details of all features like multiple agents, bulk messaging, integrations, etc."
+          },
+          {
+            "route": "/pricing",
+            "description": "Subscription plans for different business needs."
+          },
+          {
+            "route": "/faq",
+            "description": "Frequently asked questions regarding 2Chat’s services and features."
+          }
+        ]
+      }
+]

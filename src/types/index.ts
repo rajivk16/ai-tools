@@ -1,4 +1,10 @@
 // types/index.ts
+export interface PricingPlan {
+  plan: string;
+  price: string;
+  features: string[];
+}
+
 export interface Tool {
   id: string;
   slug: string;
@@ -14,15 +20,23 @@ export interface Tool {
       plan: string;
       features: string[];
     };
-    paid?: {
-      plan: string;
-      price: string;
-      features: string[];
-    };
+    paid?: PricingPlan | PricingPlan[];
   };
-  rating: number;
-  reviewCount: number;
+  rating?: number;
+  reviewCount?: number;
   imageUrl: string;
-  demoUrl: string;
+  demoUrl?: string;
   websiteUrl: string;
+  supportedPlatforms: string[];
+  languagesSupported: string[];
+  testimonials?: Array<{
+    name: string;
+    title: string;
+    quote: string;
+    avatarUrl: string;
+  }>;
+  additionalRoutes?: Array<{
+    route: string;
+    description: string;
+  }>;
 }

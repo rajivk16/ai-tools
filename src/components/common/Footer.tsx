@@ -1,4 +1,3 @@
-// app/components/layout/Footer.tsx (continued)
 // app/components/layout/Footer.tsx
 'use client'
 
@@ -6,6 +5,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
+import { RainbowButton } from '../ui/rainbow-button'
 
 
 const footerSections = [
@@ -62,7 +62,7 @@ export default function Footer() {
         >
           <motion.div variants={itemVariants}>
             <Link href="/" className="text-2xl font-heading text-gradient-1">
-              AI Tools Catalyst
+              Toolzzy
             </Link>
             <p className="mt-2 text-gray-400">Elevating your workflow with AI-powered tools.</p>
           </motion.div>
@@ -98,15 +98,15 @@ export default function Footer() {
                 placeholder="Your email" 
                 className="flex-grow dark:bg-gray-800 text-white px-4 py-2 rounded-l-full focus:outline-none focus:ring-2 focus:ring-gradient-1-from"
               />
-              <Button 
+              <RainbowButton 
                 type="submit" 
                 className="px-5 py-2 rounded-r-full text-background font-semibold transition-transform hover:scale-105"
               >
                 Subscribe
-              </Button>
+              </RainbowButton>
             </div>
           </form>
-          <p className="text-gray-400">&copy; 2024 AI Tools Catalyst. All rights reserved.</p>
+          <p className="text-gray-400">&copy; 2024 Toolzzy. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>

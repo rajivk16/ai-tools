@@ -14,10 +14,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 
   return {
-    title: `${tool.name} | AI Tools Catalog`,
+    title: `${tool.name} | Toolzzy`,
     description: tool.description,
     openGraph: {
-      title: `${tool.name} - AI Tools Catalyst`,
+      title: `${tool.name} - Toolzzy`,
       description: tool.tagline,
       images: [{ url: tool.imageUrl }],
     },

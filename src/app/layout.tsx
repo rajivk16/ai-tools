@@ -19,13 +19,13 @@ const inconsolata = Inconsolata({
 
 export const metadata: Metadata = {
   title: {
-    default: 'AI Tools Catalyst',
-    template: '%s | AI Tools Catalyst',
+    default: 'Toolzzy',
+    template: '%s | Toolzzy',
   },
   description: 'Discover cutting-edge AI tools to supercharge your productivity.',
   keywords: ['AI', 'artificial intelligence', 'productivity', 'tools', 'workflow'],
   authors: [{ name: 'AI Tools Catalyst Team' }],
-  creator: 'AI Tools Catalyst',
+  creator: 'Toolzzy',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -39,6 +39,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className={`${playfair.variable} ${inconsolata.variable} font-body min-h-screen flex flex-col`}>
         <ThemeProvider
           attribute="class"

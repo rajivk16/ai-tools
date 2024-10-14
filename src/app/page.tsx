@@ -4,7 +4,7 @@ import Hero from '@/components/Hero'
 import FeatureShowcase from '@/components/FeatureShowcase'
 
 export const metadata: Metadata = {
-  title: 'AI Tools Catalyst - Elevate Your Workflow',
+  title: 'Toolzzy - Elevate Your Workflow',
   description: 'Discover and integrate cutting-edge AI tools to supercharge your productivity.',
 }
 

@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 
   return {
-    title: `${tool.name} | Toolzzy`,
+    title: `${tool.name}`,
     description: tool.description,
     openGraph: {
       title: `${tool.name} - Toolzzy`,

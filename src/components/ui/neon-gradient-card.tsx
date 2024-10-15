@@ -73,8 +73,8 @@ const NeonGradientCard: React.FC<NeonGradientCardProps> = ({
   borderSize = 2,
   borderRadius = 20,
   neonColors = {
-    firstColor: "#ff00aa",
-    secondColor: "#00FFF1",
+    firstColor: "#1a2980",
+    secondColor: "#26d0ce",
   },
   ...props
 }) => {

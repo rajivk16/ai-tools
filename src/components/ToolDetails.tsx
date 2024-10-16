@@ -15,6 +15,7 @@ import { PricingDisplay } from "@/components/PricingDisplay";
 import { StarIcon, CheckIcon } from "@heroicons/react/24/solid";
 import { Tool } from "@/types";
 import Link from "next/link";
+import Image from "next/image"
 import { NeonGradientCard } from "@/components/ui/neon-gradient-card";
 import { RainbowButton } from "@/components/ui/rainbow-button"
 
@@ -77,10 +78,11 @@ export default function ToolDetails({ tool }: { tool: Tool }) {
             <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-6">
                 <div className="relative h-64 mb-6 rounded-lg overflow-hidden">
-                  <img
+                  <Image
                     src={tool.imageUrl}
                     alt={tool.name}
-                    className="absolute inset-0 w-full h-full object-cover"
+                    className="absolute inset-0 w-full h-full object-contain"
+                    fill
                   />
                 </div>
                 <h3 className="text-2xl font-semibold mb-4 text-gradient-secondary">

@@ -4,7 +4,7 @@
         "slug": "magic-ui",
         "name": "Magic UI",
         "tagline": "50+ Free Animated UI Components for Landing Pages",
-        "description": "Magic UI provides over 50 free and open-source animated UI components for landing pages. These components are built using React, TypeScript, Tailwind CSS, and Framer Motion, designed for developers and designers to accelerate the creation of visually stunning landing pages.",
+        "description": "Magic UI provides over 50 free and open-source animated UI components for landing pages. These components are built using React, TypeScript, Tailwind CSS, and Framer Motion, designed for developers and designers to accelerate the creation of visually stunning landing pages. Toolzzy is built using Magic UI.",
         "category": "Web Development",
         "features": [
           "50+ animated components",
@@ -63,7 +63,7 @@
         },
         "rating": 4.5,
         "reviewCount": null,
-        "imageUrl": "https://magicui.design/logo.svg",
+        "imageUrl": ["https://i.ibb.co/kDv5XWr/image.png"],
         "demoUrl": "https://magicui.design/showcase",
         "websiteUrl": "https://magicui.design",
         "supportedPlatforms": [
@@ -75,16 +75,12 @@
         "testimonials": [],
         "additionalRoutes": [
           {
-            "route": "/components",
+            "route": "/docs/components/marquee",
             "description": "Access to all animated UI components."
           },
           {
             "route": "/showcase",
             "description": "Showcase of websites built using Magic UI."
-          },
-          {
-            "route": "/pro",
-            "description": "Details about Magic UI Pro with premium features and templates."
           }
         ]
       },
@@ -147,7 +143,7 @@
         },
         "rating": 4.4,
         "reviewCount": null,
-        "imageUrl": "https://crayo.ai/assets/logo.svg",
+        "imageUrl": ["https://i.ibb.co/6Bn6kxb/image.png"],
         "demoUrl": null,
         "websiteUrl": "https://crayo.ai",
         "supportedPlatforms": [
@@ -191,7 +187,7 @@
         "name": "Beyond Code",
         "tagline": "Essential tools for web developers",
         "description": "Beyond Code provides powerful tools and open-source packages for web developers, specializing in Laravel and PHP development. Key products include Tinkerwell, Expose, HELO, and Laravel WebSockets, all aimed at simplifying development workflows and enhancing productivity.",
-        "category": "Web Development Tools",
+        "category": "Web Development",
         "features": [
           "Tinkerwell: PHP Scratchpad for fast prototyping",
           "Expose: Local-to-global web tunneling",
@@ -239,7 +235,7 @@
         },
         "rating": 4.1,
         "reviewCount": null,
-        "imageUrl": "https://beyondco.de/assets/logo.svg",
+        "imageUrl": ["https://i.ibb.co/bbXNxZR/image.png"],
         "demoUrl": "https://tinkerwell.app",
         "websiteUrl": "https://beyondco.de",
         "supportedPlatforms": [
@@ -330,7 +326,7 @@
         },
         "rating": 4.2,
         "reviewCount": null,
-        "imageUrl": "https://2chat.co/assets/logo.svg",
+        "imageUrl": ["https://i.ibb.co/Wzg0vh9/image.png"],
         "demoUrl": null,
         "websiteUrl": "https://2chat.co",
         "supportedPlatforms": [

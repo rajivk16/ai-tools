@@ -25,7 +25,7 @@ export interface Tool {
   };
   rating?: number | null;
   reviewCount?: number | null;
-  imageUrl: string;
+  imageUrl: string[];
   demoUrl?: string | null;
   websiteUrl: string;
   supportedPlatforms: string[];

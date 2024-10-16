@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { motion } from "framer-motion"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -23,7 +24,13 @@ export default function ToolCard({ tool }: { tool: Tool }) {
             </CardHeader>
             <CardContent className="p-4 flex-grow flex flex-col">
               <div className="relative h-48 mb-4 rounded-md overflow-hidden">
-                <img src={tool.imageUrl} alt={tool.name} className="absolute inset-0 w-full h-full object-cover" />
+                <Image
+                  src={tool.imageUrl[0]}
+                  alt={tool.name}
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-md"
+                />
               </div>
               <p className="text-muted-foreground mb-4 flex-grow">{tool.tagline}</p>
               <div className="flex justify-between items-center mt-auto">

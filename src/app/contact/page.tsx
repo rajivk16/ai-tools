@@ -1,5 +1,11 @@
 import { ContactForm } from '@/components/ContactForm'
+import { Metadata } from 'next'
 import SparklesText from "@/components/ui/sparkles-text"
+
+export const metadata: Metadata = {
+  title: 'Contact',
+  description: 'Get in touch with the Toolzzy team for inquiries or support.',
+}
 
 export default function ContactPage() {
   return (

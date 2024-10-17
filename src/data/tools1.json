@@ -428,7 +428,7 @@
             "name": "Daniel Gjokaj",
             "title": "CEO, Tolt",
             "quote": "Tolt made it easy for us to manage our affiliate program, allowing us to grow our MRR significantly.",
-            "avatarUrl": "https://tolt.io/images/daniel.png"
+            "avatarUrl": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairSides&accessoriesType=Prescription01&hairColor=Red&facialHairType=BeardMajestic&facialHairColor=Black&clotheType=BlazerShirt&eyeType=Wink&eyebrowType=Default&mouthType=Smile&skinColor=Brown"
           }
         ],
         "additionalRoutes": [
@@ -441,6 +441,434 @@
             "description": "Access documentation for setting up Tolt."
           }
         ]
+      },
+      {
+        "id": "6",
+        "slug": "faceless-video",
+        "name": "Faceless.video",
+        "tagline": "AI-Powered Video Creation Without Showing Your Face",
+        "description": "Faceless allows users to create engaging videos without showing their face, powered by AI for video content generation. It’s designed for creators, marketers, and educators who want a streamlined, camera-free video creation process.",
+        "category": "Content Creation",
+        "features": [
+          "AI-generated voiceovers",
+          "Camera-free video creation",
+          "Script to video automation",
+          "Video templates"
+        ],
+        "useCases": [
+          "Content creation for YouTube or social media",
+          "Marketing video production",
+          "Educational content"
+        ],
+        "pricing": {
+          "model": "Freemium",
+          "free": {
+            "plan": "Starter",
+            "features": [
+              "Access to basic templates",
+              "AI voiceover feature"
+            ]
+          },
+          "paid": {
+            "plan": "Pro",
+            "price": [
+              {
+                "plan": "Monthly",
+                "price": "$19/month",
+                "features": [
+                  "Advanced templates",
+                  "Priority support",
+                  "Unlimited video length"
+                ]
+              },
+              {
+                "plan": "Annual",
+                "price": "$180/year",
+                "features": [
+                  "Discounted yearly access",
+                  "All premium features"
+                ]
+              }
+            ]
+          }
+        },
+        "rating": 4.3,
+        "reviewCount": null,
+        "imageUrl": [
+          "https://i.ibb.co/FqsSFV3/image.png"
+        ],
+        "demoUrl": null,
+        "websiteUrl": "https://faceless.video/?via=toolzzy",
+        "supportedPlatforms": [
+          "Web"
+        ],
+        "languagesSupported": [
+          "English"
+        ],
+        "testimonials": [],
+        "additionalRoutes": [
+          {
+            "route": "/about",
+            "description": "Learn about Faceless and its mission."
+          },
+          {
+            "route": "/pricing",
+            "description": "Explore the pricing plans."
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "slug": "copycopter-ai",
+        "name": "CopyCopter",
+        "tagline": "AI-powered Text-to-Video Generation Tool",
+        "description": "CopyCopter is a generative AI tool that turns long text into short videos for social media, creating viral content in minutes. With features like AI-generated scripts, customizable video templates, and voiceover options, CopyCopter helps you automate video creation.",
+        "category": "Content Creation",
+        "features": [
+          "AI-generated scripts",
+          "45 unique voices",
+          "Stock video integration",
+          "AI-generated images",
+          "Multilingual support (29 languages)",
+          "Customizable video editor"
+        ],
+        "useCases": [
+          "Create viral TikToks and YouTube Shorts",
+          "Automate video content generation",
+          "Repurpose blog posts into video content"
+        ],
+        "pricing": {
+          "model": "Subscription",
+          "paid": {
+            "price": [
+              {
+                "plan": "Basic",
+                "price": "$19/month",
+                "features": [
+                  "10 video credits",
+                  "Basic AI features",
+                  "Video editor access"
+                ]
+              },
+              {
+                "plan": "Pro",
+                "price": "$49/month",
+                "features": [
+                  "Unlimited video credits",
+                  "Advanced video templates",
+                  "Priority support"
+                ]
+              },
+              {
+                "plan": "Enterprise",
+                "price": "Custom pricing",
+                "features": [
+                  "Custom integrations",
+                  "Team collaboration tools",
+                  "Dedicated account manager"
+                ]
+              }
+            ]
+          }
+        },
+        "rating": 4.4,
+        "reviewCount": null,
+        "imageUrl": ["https://i.ibb.co/BrHYy8S/image.png"],
+        "demoUrl": null,
+        "websiteUrl": "https://copycopter.ai/?via=toolzzy",
+        "supportedPlatforms": [
+          "Web"
+        ],
+        "languagesSupported": [
+          "English", "Spanish", "French", "German", "Japanese", "Russian", "Chinese", "Hindi", "Portuguese", "Korean", "Arabic"
+        ],
+        "testimonials": [
+          {
+            "name": "Benny R",
+            "title": "Solopreneur",
+            "quote": "Honestly the best content conversion tool I've used so far.",
+            "avatarUrl": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads02&accessoriesType=Kurt&hairColor=SilverGray&facialHairType=BeardLight&facialHairColor=Blonde&clotheType=ShirtScoopNeck&clotheColor=PastelOrange&eyeType=Happy&eyebrowType=UpDown&mouthType=Twinkle&skinColor=DarkBrown"
+          }
+        ],
+        "additionalRoutes": [
+          {
+            "route": "/pricing",
+            "description": "View detailed pricing plans."
+          },
+          {
+            "route": "/about",
+            "description": "Learn about CopyCopter and its mission."
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "slug": "flare",
+        "name": "Flare",
+        "tagline": "Advanced Laravel Error Tracking for PHP and JavaScript",
+        "description": "Flare is a powerful error tracking tool built specifically for Laravel, offering detailed insights and hand-crafted solutions for debugging PHP and JavaScript errors. It streamlines error resolution with extensive context and collaboration features.",
+        "category": "Error Tracking",
+        "features": [
+          "Laravel and JavaScript error tracking",
+          "Detailed error reports with context",
+          "AI-assisted debugging",
+          "API integrations",
+          "Multi-channel notifications",
+          "Unlimited projects and teams"
+        ],
+        "useCases": [
+          "Monitor and resolve Laravel errors",
+          "Track PHP and JavaScript issues",
+          "Collaborate with teams on bug fixes"
+        ],
+        "pricing": {
+          "model": "Free Trial",
+          "free": {
+            "plan": "Free 10-day trial",
+            "features": [
+              "Access to full features for 10 days"
+            ]
+          },
+          "paid": {
+            "plan": "Subscription",
+            "price": [
+              {
+                "plan": "Standard",
+                "price": "Custom pricing",
+                "features": [
+                  "Unlimited teams",
+                  "Unlimited projects",
+                  "Full error tracking and reporting"
+                ]
+              }
+            ]
+          }
+        },
+        "rating": 4.7,
+        "reviewCount": null,
+        "imageUrl": [
+          "https://i.ibb.co/brRvK5r/image.png"
+        ],
+        "demoUrl": null,
+        "websiteUrl": "https://flareapp.io/?via=toolzzy",
+        "supportedPlatforms": [
+          "Web",
+          "PHP",
+          "JavaScript"
+        ],
+        "languagesSupported": [
+          "English"
+        ],
+        "testimonials": [
+          {
+            "name": "Jeffrey Way",
+            "title": "Owner of Laracasts",
+            "quote": "Flare changes the game entirely. I’m blown away.",
+            "avatarUrl": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Blank&hatColor=Gray02&hairColor=Auburn&facialHairType=BeardLight&facialHairColor=Auburn&clotheType=BlazerSweater&clotheColor=Black&eyeType=EyeRoll&eyebrowType=UpDown&mouthType=Serious&skinColor=Yellow"
+          },
+          {
+            "name": "Nuno Maduro",
+            "title": "Developer at Laravel",
+            "quote": "Flare keeps leveling up like crazy. It's freaking awesome!",
+            "avatarUrl": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Blank&hatColor=Gray02&hairColor=Auburn&facialHairType=BeardLight&facialHairColor=Auburn&clotheType=BlazerSweater&clotheColor=Black&eyeType=EyeRoll&eyebrowType=UpDown&mouthType=Serious&skinColor=Yellow"
+          }
+        ],
+        "additionalRoutes": [
+          {
+            "route": "/pricing",
+            "description": "Explore pricing details."
+          },
+          {
+            "route": "/features",
+            "description": "See detailed feature information."
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "slug": "ai-lawyer",
+        "name": "AI Lawyer",
+        "tagline": "Your Personal AI Legal Assistant",
+        "description": "AI Lawyer is a legal tech platform that uses AI to assist with legal research, document automation, and simple legal consultations. It’s designed for consumers, lawyers, and law firms to save time on legal tasks.",
+        "category": "Legal Technology",
+        "features": [
+          "AI-powered legal research",
+          "Document automation",
+          "Case law finder",
+          "Custom clause generation",
+          "Chat-based legal assistant"
+        ],
+        "useCases": [
+          "Draft contracts or legal documents",
+          "Conduct legal research",
+          "Generate personalized legal advice",
+          "Streamline law firm processes"
+        ],
+        "pricing": {
+          "model": "Freemium",
+          "free": {
+            "plan": "Free Trial",
+            "features": [
+              "Access to basic features",
+              "Limited document processing"
+            ]
+          },
+          "paid": {
+            "plan": "Pro",
+            "price": "Custom pricing",
+            "features": [
+              "Unlimited access to all features",
+              "Priority support"
+            ]
+          }
+        },
+        "rating": 4.9,
+        "reviewCount": null,
+        "imageUrl": [
+          "https://i.ibb.co/89rnbNQ/image.png"
+        ],
+        "demoUrl": null,
+        "websiteUrl": "https://ailawyer.pro/?via=toolzzy",
+        "supportedPlatforms": [
+          "Web",
+          "iOS",
+          "Android"
+        ],
+        "languagesSupported": [
+          "English"
+        ],
+        "testimonials": [
+          {
+            "name": "Sarah Mitchell",
+            "title": "Freelancer",
+            "quote": "AI Lawyer made navigating legal jargon so much easier!",
+            "avatarUrl": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairFrida&accessoriesType=Wayfarers&hairColor=PastelPink&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Red&eyeType=Squint&eyebrowType=UnibrowNatural&mouthType=Twinkle&skinColor=DarkBrown"
+          },
+          {
+            "name": "Maria Davis",
+            "title": "Consumer Rights Advocate",
+            "quote": "It's amazing how AI Lawyer simplifies creating consumer complaint letters.",
+            "avatarUrl": "https://avataaars.io/?avatarStyle=Circle&topType=Hijab&accessoriesType=Prescription01&hatColor=Blue03&hairColor=BrownDark&facialHairType=Blank&facialHairColor=Platinum&clotheType=Overall&clotheColor=PastelGreen&eyeType=Happy&eyebrowType=RaisedExcitedNatural&mouthType=Twinkle&skinColor=Brown"
+          }
+        ],
+        "additionalRoutes": [
+          {
+            "route": "/features",
+            "description": "Learn about key features of AI Lawyer."
+          },
+          {
+            "route": "/blog",
+            "description": "Stay up to date on LegalTech trends."
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "slug": "relay-app",
+        "name": "Relay",
+        "tagline": "The New Standard for Automation",
+        "description": "Relay.app is a modern automation tool designed for integrating apps and creating workflows with ease. Its unique Human-in-the-Loop feature allows for manual interventions within automated workflows, making it ideal for businesses that require flexible automations.",
+        "category": "Automation Tools",
+        "features": [
+          "App integrations",
+          "Human-in-the-loop automation",
+          "AI-driven automation actions",
+          "Flexible workflow builder",
+          "Multi-channel notifications"
+        ],
+        "useCases": [
+          "Automate repetitive tasks",
+          "Integrate multiple business apps",
+          "Use AI actions to summarize or translate content",
+          "Improve operational efficiency"
+        ],
+        "pricing": {
+          "model": "Freemium",
+          "free": {
+            "plan": "Free",
+            "price": "$0/month",
+            "features": [
+              "2 users",
+              "200 steps/month",
+              "Access to core features"
+            ]
+          },
+          "paid": {
+            "plan": "Professional",
+            "price": "$9/month (billed annually)",
+            "features": [
+              "2 users",
+              "10,000 steps/month",
+              "Email support"
+            ]
+          },
+          "team": {
+            "plan": "Team",
+            "price": "$59/month (billed annually)",
+            "features": [
+              "Unlimited users",
+              "25,000 steps/month",
+              "Email support"
+            ]
+          },
+          "enterprise": {
+            "plan": "Enterprise",
+            "price": "Custom pricing",
+            "features": [
+              "Unlimited users",
+              "Unlimited steps",
+              "Custom integrations",
+              "Dedicated Slack support"
+            ]
+          }
+        },
+        "rating": 4.9,
+        "reviewCount": 150,
+        "imageUrl": [
+          "https://i.ibb.co/TKFYccP/image.png"
+        ],
+        "demoUrl": null,
+        "websiteUrl": "https://relay.app/?via=toolzzy",
+        "supportedPlatforms": [
+          "Web"
+        ],
+        "languagesSupported": [
+          "English"
+        ],
+        "testimonials": [
+          {
+            "name": "Aaron Perlstein",
+            "title": "People Operations, Ramp",
+            "quote": "Relay.app has transformed how we approach onboarding, saving over 70% of time on manual tasks.",
+            "avatarUrl": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Sunglasses&hairColor=SilverGray&facialHairType=BeardMajestic&facialHairColor=BrownDark&clotheType=BlazerShirt&clotheColor=Black&eyeType=EyeRoll&eyebrowType=RaisedExcitedNatural&mouthType=Disbelief&skinColor=Tanned"
+          },
+          {
+            "name": "Hassaan Raza",
+            "title": "Co-Founder & CEO, Tavus",
+            "quote": "Relay conforms to our processes, providing frictionless workflows for human-in-the-loop tasks.",
+            "avatarUrl": "https://avataaars.io/?avatarStyle=Circle&topType=Hat&accessoriesType=Wayfarers&hairColor=Black&facialHairType=BeardMedium&facialHairColor=Black&clotheType=Hoodie&clotheColor=PastelOrange&eyeType=Dizzy&eyebrowType=Angry&mouthType=Smile&skinColor=Yellow"
+          },
+          {
+            "name": "Henry Qi",
+            "title": "Co-Founder & CEO, Motion",
+            "quote": "Relay's Slack integration helped us improve our mobile app rating by a full point within 2 months.",
+            "avatarUrl": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Sunglasses&hairColor=BlondeGolden&facialHairType=BeardLight&facialHairColor=BrownDark&clotheType=Overall&clotheColor=Pink&eyeType=Surprised&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Tanned"
+          }
+        ],
+        "additionalRoutes": [
+          {
+            "route": "/features",
+            "description": "Explore Relay's unique automation features."
+          },
+          {
+            "route": "/pricing",
+            "description": "Check out available pricing plans."
+          }
+        ]
       }
+      
+      
+      
+      
       
 ]

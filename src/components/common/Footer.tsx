@@ -28,9 +28,9 @@ const footerSections = [
   {
     title: 'Social',
     links: [
-      { name: 'Twitter', href: 'https://twitter.com/AIToolsCatalyst' },
-      { name: 'LinkedIn', href: 'https://linkedin.com/company/aitoolscatalyst' },
-      { name: 'GitHub', href: 'https://github.com/aitoolscatalyst' },
+      { name: 'Twitter', href: 'https://twitter.com/Toolzzy' },
+      { name: 'LinkedIn', href: 'https://linkedin.com/company/toolzzy' },
+      { name: 'GitHub', href: 'https://github.com/toolzzy' },
     ],
   },
 ]

@@ -17,6 +17,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import SparklesText from "@/components/ui/sparkles-text"
+
 
 const cardVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -42,7 +44,7 @@ export default function ToolDetails({ tool }: { tool: Tool }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            {tool.name}
+            <SparklesText text={tool.name} />
           </motion.h1>
           <motion.p
             className="text-xl text-muted-foreground mb-6 text-center"

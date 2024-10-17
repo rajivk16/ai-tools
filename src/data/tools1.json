@@ -350,5 +350,97 @@
             "description": "Frequently asked questions regarding 2Chat’s services and features."
           }
         ]
+      },
+      {
+        "id": "5",
+        "slug": "tolt",
+        "name": "Tolt",
+        "tagline": "Affiliate Marketing Software for SaaS Startups",
+        "description": "Tolt is an all-in-one solution designed for SaaS startups to easily create and manage affiliate and referral programs. It integrates with Stripe, Paddle, and Chargebee, offering both manual and auto payouts via PayPal and Wise.",
+        "category": "Affiliate Marketing",
+        "features": [
+          "Auto payouts with PayPal and Wise",
+          "Branded affiliate portal",
+          "Integration with Stripe, Paddle, and Chargebee",
+          "Custom email notifications",
+          "Cross subdomain tracking"
+        ],
+        "useCases": [
+          "Launch affiliate programs",
+          "Manage affiliates with ease",
+          "Handle payouts automatically",
+          "Custom branding for portals"
+        ],
+        "pricing": {
+          "model": "Subscription",
+          "paid": {
+            "price": [
+              {
+                "plan": "Starter",
+                "price": "$29/month",
+                "features": [
+                  "Unlimited affiliates",
+                  "Unlimited referrals",
+                  "Branded affiliate portal",
+                  "PayPal/Wise payouts"
+                ]
+              },
+              {
+                "plan": "Growth",
+                "price": "$49/month",
+                "features": [
+                  "Up to 3 programs",
+                  "Custom affiliate commissions"
+                ]
+              },
+              {
+                "plan": "Pro",
+                "price": "$99/month",
+                "features": [
+                  "Up to 10 programs",
+                  "Auto payouts"
+                ]
+              },
+              {
+                "plan": "Enterprise",
+                "price": "Custom pricing",
+                "features": [
+                  "Unlimited programs",
+                  "No 'powered by' link"
+                ]
+              }
+            ]
+          }
+        },
+        "rating": 5,
+        "reviewCount": null,
+        "imageUrl": ["https://i.ibb.co/8b5xWL3/image.png"],
+        "demoUrl": null,
+        "websiteUrl": "https://tolt.io/?via=toolzzy",
+        "supportedPlatforms": [
+          "Web"
+        ],
+        "languagesSupported": [
+          "English"
+        ],
+        "testimonials": [
+          {
+            "name": "Daniel Gjokaj",
+            "title": "CEO, Tolt",
+            "quote": "Tolt made it easy for us to manage our affiliate program, allowing us to grow our MRR significantly.",
+            "avatarUrl": "https://tolt.io/images/daniel.png"
+          }
+        ],
+        "additionalRoutes": [
+          {
+            "route": "/pricing",
+            "description": "View all pricing plans and compare features."
+          },
+          {
+            "route": "/docs",
+            "description": "Access documentation for setting up Tolt."
+          }
+        ]
       }
+      
 ]

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   description: 'Discover cutting-edge AI tools to supercharge your productivity.',
   keywords: ['AI', 'artificial intelligence', 'productivity', 'tools', 'workflow'],
-  authors: [{ name: 'AI Tools Catalyst Team' }],
+  authors: [{ name: 'Toolzzy Team' }],
   creator: 'Toolzzy',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
@@ -42,16 +42,18 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <body className={`${playfair.variable} ${inconsolata.variable} font-body min-h-screen flex flex-col`}>
+      <body className={`${playfair.variable} ${inconsolata.variable} font-body min-h-screen flex flex-col overflow-x-hidden w-full`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
-          <Header />
-          <main className="flex-grow">{children}</main>
-          <Footer />
+          <div className="relative w-full overflow-x-hidden">
+            <Header />
+            <main className="flex-grow relative w-full">{children}</main>
+            <Footer />
+          </div>
           <Toaster />
         </ThemeProvider>
       </body>

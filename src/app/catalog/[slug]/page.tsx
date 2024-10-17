@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     openGraph: {
       title: `${tool.name} - Toolzzy`,
       description: tool.tagline,
-      images: [{ url: tool.imageUrl }],
+      images: [{ url: tool.imageUrl[0] }],
     },
   }
 }
